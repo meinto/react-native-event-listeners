@@ -1,0 +1,41 @@
+{
+  "name": "react-native-event-listeners",
+  "version": "1.0.0",
+  "author": "Tobias Meinhardt <tobias.meinhardt89@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiasMeinhardt/react-native-event-listeners"
+  },
+  "bugs": {
+    "url": "https://github.com/tobiasMeinhardt/react-native-event-listeners/issues"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "event listeners",
+    "listeners",
+    "events"
+  ],
+  "tags": [
+    "react",
+    "react-native",
+    "event listeners",
+    "listeners",
+    "events"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "type-detect": "^4.0.3"
+  },
+  "devDependencies": {
+    "jest": "19.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
