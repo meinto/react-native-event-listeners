@@ -26,8 +26,7 @@ yarn add react-native-event-listeners
 
 ## Usage Example
 
-```
-...
+```javascript
 import { EventRegister } from 'react-native-event-listeners'
 
 /*
@@ -73,13 +72,13 @@ const Sender = (props) => (
 
 ## API
 
-```
+```javascript
 // import
 import { EventRegister } from 'react-native-event-listeners'
 ```
 
 | static method       | return value      | description                                                    |
-| ------------------- | ----------------- | -------------------------------------------------------------- |
+| :------------------ | :---------------- | :------------------------------------------------------------- |
 | addEventListener    | string \| boolean | return value is the id of the event listener or false on error |
 | removeEventListener | boolean           | true on success otherwise false                                |
 | removeAllListeners  | boolean           | true on success otherwise false                                |
