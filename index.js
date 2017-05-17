@@ -36,7 +36,7 @@ class EventRegister {
       const removed = delete EventRegister._Listeners.refs[_id]
       removeError = (!removeError) ? !removed : removeError
     })
-    return removeError
+    return !removeError
   }
 
   static emitEvent(eventName, data) {

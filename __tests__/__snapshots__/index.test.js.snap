@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventRegister tests tests that eventlisteners are added properly 1`] = `
+Object {
+  "count": 3,
+  "refs": Object {
+    "l1": Object {
+      "callback": [Function],
+      "name": "test",
+    },
+    "l2": Object {
+      "callback": [Function],
+      "name": "test",
+    },
+    "l3": Object {
+      "callback": [Function],
+      "name": "test",
+    },
+  },
+}
+`;
+
+exports[`EventRegister tests tests that removeAllListeners works properly 1`] = `
+Object {
+  "count": 3,
+  "refs": Object {},
+}
+`;
+
+exports[`EventRegister tests tests that removeEventListener works properly 1`] = `
+Object {
+  "count": 3,
+  "refs": Object {
+    "l1": Object {
+      "callback": [Function],
+      "name": "test",
+    },
+    "l3": Object {
+      "callback": [Function],
+      "name": "test",
+    },
+  },
+}
+`;
