@@ -41,7 +41,10 @@ class EventRegister {
 
   static emitEvent(eventName, data) {
     Object.keys(EventRegister._Listeners.refs).forEach(_id => {
-      if (eventName === EventRegister._Listeners.refs[_id].name)
+      if (
+        EventRegister._Listeners.refs[_id] &&
+        eventName === EventRegister._Listeners.refs[_id].name
+      )
         EventRegister._Listeners.refs[_id].callback(data)
     })
   }
