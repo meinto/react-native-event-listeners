@@ -1,11 +1,11 @@
 {
   "name": "react-native-event-listeners",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Tobias Meinhardt <tobias.meinhardt89@gmail.com>",
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "repository": {
     "type": "git",
@@ -30,12 +30,17 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "type-detect": "^4.0.3"
+    "type-detect": "4.0.3"
   },
   "devDependencies": {
-    "babel-plugin-syntax-class-properties": "^6.13.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "jest": "19.0.2"
+    "babel-plugin-syntax-class-properties": "6.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "jest": "19.0.2",
+    "babel-preset-es2015": "6.24.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "<rootDir>/jest.transform.js"
+    }
   }
 }
