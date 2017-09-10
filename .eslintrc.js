@@ -10,7 +10,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended"
   ],
-  "installedESLint": true,
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -18,9 +17,6 @@ module.exports = {
     },
     "sourceType": "module"
   },
-  "jsx-no-duplicate-props": [
-    "error", { "ignoreCase": true }
-  ],
   "plugins": [
     "react",
     "react-native",
