@@ -7,6 +7,7 @@
 [![dev-dependency status](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners/dev-status.svg)](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners?type=dev)
 [![npm](https://img.shields.io/npm/dm/react-native-event-listeners.svg)](https://www.npmjs.com/package/react-native-event-listeners)
 [![npm](https://img.shields.io/npm/dt/react-native-event-listeners.svg)](https://www.npmjs.com/package/react-native-event-listeners)
+[![travis build](https://travis-ci.org/meinto/react-native-event-listeners.svg?branch=master)](https://travis-ci.org/meinto/react-native-event-listeners)
 
 ## Why
 
