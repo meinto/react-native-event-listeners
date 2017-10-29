@@ -8,6 +8,7 @@
 [![npm](https://img.shields.io/npm/dm/react-native-event-listeners.svg)](https://www.npmjs.com/package/react-native-event-listeners)
 [![npm](https://img.shields.io/npm/dt/react-native-event-listeners.svg)](https://www.npmjs.com/package/react-native-event-listeners)
 [![travis build](https://travis-ci.org/meinto/react-native-event-listeners.svg?branch=master)](https://travis-ci.org/meinto/react-native-event-listeners)
+[![Coverage Status](https://coveralls.io/repos/github/meinto/react-native-event-listeners/badge.svg?branch=master)](https://coveralls.io/github/meinto/react-native-event-listeners?branch=master)
 
 ## Why
 
