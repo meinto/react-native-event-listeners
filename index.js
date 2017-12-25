@@ -46,6 +46,7 @@ class EventRegister {
         eventName === EventRegister._Listeners.refs[_id].name
       )
         EventRegister._Listeners.refs[_id].callback(data)
+      return
     })
   }
 
