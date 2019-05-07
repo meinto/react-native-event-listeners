@@ -12,7 +12,7 @@
 
 ## Why
 
-In some very specific cases it can be charming to have a simple global event listener. While working with global event listeners **you don't have to pass touch events through the component tree** into other components or can **bypass easyly the redux architecture** for example.
+In some very specific cases it can be charming to have a simple global event listener. While working with global event listeners **you don't have to pass touch events through the component tree** into other components or can **bypass easily the redux architecture** for example.
 
 ## Installation
 
