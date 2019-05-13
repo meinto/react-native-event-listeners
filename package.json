@@ -34,16 +34,13 @@
     "type-detect": "^4.0.8"
   },
   "devDependencies": {
-    "babel-plugin-syntax-class-properties": "^6.13.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-class-properties": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
     "coveralls": "^3.0.3",
     "jest": "^24.8.0"
   },
   "jest": {
-    "transform": {
-      "^.+\\.js$": "<rootDir>/jest.transform.js"
-    },
     "collectCoverage": true,
     "collectCoverageFrom": [
       "index.js"
