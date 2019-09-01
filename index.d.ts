@@ -8,7 +8,7 @@ declare module 'react-native-event-listeners' {
 
     public static removeAllListeners(): boolean
 
-    public static emitEvent(eventName: string, data: any): void
+    public static emitEvent(eventName: string, data?: any): void
 
     // shortener
     public static on(eventName: string, callback: Callback): string | boolean
@@ -17,7 +17,7 @@ declare module 'react-native-event-listeners' {
 
     public static rmAll(): boolean
 
-    public static emit(eventName: string, data: any): void
+    public static emit(eventName: string, data?: any): void
   }
 
   export { EventRegister };
