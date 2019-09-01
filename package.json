@@ -1,6 +1,6 @@
 {
   "name": "react-native-event-listeners",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Tobias Meinhardt <tobias.meinhardt89@gmail.com>",
   "main": "index.js",
   "scripts": {
