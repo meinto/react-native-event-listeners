@@ -34,11 +34,11 @@
     "type-detect": "^4.0.8"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-syntax-class-properties": "^7.2.0",
-    "@babel/preset-env": "^7.4.4",
-    "coveralls": "^3.0.3",
-    "jest": "^24.8.0"
+    "@babel/preset-env": "^7.7.1",
+    "coveralls": "^3.0.7",
+    "jest": "^24.9.0"
   },
   "jest": {
     "collectCoverage": true,
