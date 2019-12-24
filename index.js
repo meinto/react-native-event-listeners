@@ -3,22 +3,20 @@ import type from 'type-detect'
 class EventRegister {
 
   static _Listeners = {
-    count: 0,
     refs: {},
   }
 
   static addEventListener(eventName, callback) {
     if (
       type(eventName) === 'string' &&
-      type(callback) === 'function'
+      type(callback) === 'function' &&
+      EventRegister._Listeners[eventName] === undefined
     ) {
-      EventRegister._Listeners.count++
-      const eventId = 'l' + EventRegister._Listeners.count
-      EventRegister._Listeners.refs[eventId] = {
+      EventRegister._Listeners.refs[eventName] = {
         name: eventName,
         callback,
       }
-      return eventId
+      return eventName
     }
     return false
   }
