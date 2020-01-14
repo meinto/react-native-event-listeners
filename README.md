@@ -2,7 +2,7 @@
 
 (This package isn't only restricted to react-native projects. The source is written in plain js with no dependencies to react-native.)
 
-[![npm version](https://badge.fury.io/js/react-native-event-listeners.svg)](https://badge.fury.io/js/react-native-event-listeners)
+[![Financial Contributors on Open Collective](https://opencollective.com/react-native-event-listeners/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-event-listeners) [![npm version](https://badge.fury.io/js/react-native-event-listeners.svg)](https://badge.fury.io/js/react-native-event-listeners)
 [![dependencie status](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners.svg)](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners)
 [![dev-dependency status](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners/dev-status.svg)](https://david-dm.org/tobiasMeinhardt/react-native-event-listeners?type=dev)
 [![npm](https://img.shields.io/npm/dm/react-native-event-listeners.svg)](https://www.npmjs.com/package/react-native-event-listeners)
@@ -92,3 +92,33 @@ import { EventRegister } from 'react-native-event-listeners'
 | rmAll               | boolean           | **shorthand** for removeAllListeners                           |
 | emit                | void              | **shorthand** for emitEvent                                    |
 
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/meinto/react-native-event-listeners/graphs/contributors"><img src="https://opencollective.com/react-native-event-listeners/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/react-native-event-listeners/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/react-native-event-listeners"><img src="https://opencollective.com/react-native-event-listeners/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/react-native-event-listeners/contribute)]
+
+<a href="https://opencollective.com/react-native-event-listeners/organization/0/website"><img src="https://opencollective.com/react-native-event-listeners/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/1/website"><img src="https://opencollective.com/react-native-event-listeners/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/2/website"><img src="https://opencollective.com/react-native-event-listeners/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/3/website"><img src="https://opencollective.com/react-native-event-listeners/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/4/website"><img src="https://opencollective.com/react-native-event-listeners/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/5/website"><img src="https://opencollective.com/react-native-event-listeners/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/6/website"><img src="https://opencollective.com/react-native-event-listeners/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/7/website"><img src="https://opencollective.com/react-native-event-listeners/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/8/website"><img src="https://opencollective.com/react-native-event-listeners/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-event-listeners/organization/9/website"><img src="https://opencollective.com/react-native-event-listeners/organization/9/avatar.svg"></a>
