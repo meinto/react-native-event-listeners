@@ -56,8 +56,8 @@ class EventRegister {
     return EventRegister.addEventListener(eventName, callback)
   }
 
-  static rm(eventName) {
-    return EventRegister.removeEventListener(eventName)
+  static rm(eventId) {
+    return EventRegister.removeEventListener(eventId)
   }
 
   static rmAll() {
